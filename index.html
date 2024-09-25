@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Download File</title>
+</head>
+<body>
+    <label style="color: rgb(20, 15, 15);" for="file">Select a picture:
+        <input type="file" id="photo" name="file" required>
+    </label>
+    <div id="main">
+        <div style="font-size: 50px; display: flex; justify-content: center;align-items: center;" id="deco">   
+            Div Saving 
+        </div>
+        <div id="imgdiv">
+            <img id="userimg" src="" alt="user">
+        </div>
+        <div id="textdiv">
+            <h3>This is your div you can save</h3><br>
+            <p>Thank You</p>
+        </div>
+    </div>
+    <button id="download">Download image</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="download.js"></script>
+</body>
+</html>
