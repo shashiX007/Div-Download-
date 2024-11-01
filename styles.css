@@ -15,12 +15,11 @@ body {
 
 input {
     margin: 20px 0 20px 0;
-    border: 2px solid rgb(247, 57, 57);
+    border: 2px solid orange);
 }
 
 #main {
     border-radius: 5px;
-    ;
     background-color: whitesmoke;
     background-size: cover;
     background-position: center;
@@ -33,7 +32,6 @@ input {
     box-shadow: 5px 5px 20px rgb(255, 39, 39);
     color: black;
     font-weight: 30px;
-    ;
 }
 
 img {
@@ -47,7 +45,7 @@ button {
     margin: 40px 0 20px 0;
     width: 25rem;
     height: 3rem;
-    background-color: red;
+    background-color: orange;
     color: white;
     border-radius: 10px;
     transition: all 0.1s linear;
@@ -57,7 +55,7 @@ button {
 button:hover {
     background-color: rgb(255, 226, 226);
     border: 2px solid red;
-    color: red;
+    color:orange;
     box-shadow: 0 0 10px red;
 }
 
